@@ -1,0 +1,15 @@
+{
+  "name": "oidc-auth-system",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "auth-server",
+    "api-server",
+    "client"
+  ],
+  "scripts": {
+    "start:auth": "cd auth-server && npm start",
+    "start:api": "cd api-server && npm start",
+    "start:client": "cd client && npm run dev"
+  }
+} 
